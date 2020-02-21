@@ -65,11 +65,11 @@
 
 5. Done.
 
-   ![image-20200221143926035](README.assets/image-20200221143926035.png)
+   ![image-20200221143926035](./README.assets/image-20200221143926035.png)
 
    And:
 
-   ![image-20200221144106139](README.assets/image-20200221144106139.png)
+   ![image-20200221144106139](./README.assets/image-20200221144106139.png)
 
 ## Appendix
 
