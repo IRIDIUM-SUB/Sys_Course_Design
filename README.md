@@ -4,6 +4,6 @@ HUST,2019,ComputerSeience/CyberSecurity,Operation System Course Design.
 - [x] Copy
 - [x] Multi-process
 - [x] Kernel Development
-- [ ] Drive equipment
+- [x] Device Driver
 - [ ] (Optional)Monitor
 - [ ] (Optional)File system
