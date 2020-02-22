@@ -4,8 +4,8 @@
 
 - Ubuntu 18.04.3 LTS
 
-- Old Core: Linux ubuntu 5.0.0-23-generic #24~18.04.1-Ubuntu SMP Mon Jul 29 16:12:28 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
-- New Core: Linux ubuntu 4.15.2.POTASSIUM #1 SMP Thu Feb 20 06:51:24 PST 2020 x86_64 x86_64 x86_64 GNU/Linux
+- Old Kernel: Linux ubuntu 5.0.0-23-generic #24~18.04.1-Ubuntu SMP Mon Jul 29 16:12:28 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+- New Kernel: Linux ubuntu 4.15.2.POTASSIUM #1 SMP Thu Feb 20 06:51:24 PST 2020 x86_64 x86_64 x86_64 GNU/Linux
 
 ## Reliance:
 
@@ -73,7 +73,7 @@
 
 ## Appendix
 
-For more development process and other bugfix instructions, see `Linux Core Dev Log.md`.
+For more development process and other bugfix instructions, see `Linux Kernel Dev Log.md`.
 
 I-Hsien
 
