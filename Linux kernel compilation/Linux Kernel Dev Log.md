@@ -1,10 +1,10 @@
-# Linux Core Dev Log
+# Linux Kernel Dev Log
 
 ## Environment 
 
 Ubuntu LTS 18..04
 
-Core: Linux 4.15.2
+Kernel: Linux 4.15.2
 
 Main ref: https://blog.csdn.net/sinat_28750977/article/details/50837996
 
