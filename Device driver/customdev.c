@@ -127,7 +127,7 @@ static const struct file_operations my_fops =
 static int customdev_init(void)
 {
   /*初始化cdev结构*/
-  cdev_init(&cdev, &my_fops);s
+  cdev_init(&cdev, &my_fops);
   
   /* 注册字符设备 */
   alloc_chrdev_region(&devno, 0, 2, "customdev");
