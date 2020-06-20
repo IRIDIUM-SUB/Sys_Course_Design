@@ -2,7 +2,7 @@
 ## QT Compiler
 `Could not start process "make" qmake_all`:
 `sudo apt-get install build-essential`
-<!--via https://blog.csdn.net/qq_25116371/article/details/86230538-->
+<!--via https://blog.csdn.net/qq_25116371/article/details/86230538 -->
 Linux Qt cannot find -lGL:
 ```bash
 #查找 libGL 所在位置

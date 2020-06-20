@@ -22,13 +22,8 @@ Kernel: Linux ubuntu 5.0.0-23-generic
 
 3. Run `autodeploy.sh`.*Note: It's most likely that the major is 240 and the minor is 0. But who knows?*
 
-4. Compile `test.c` by `gcc`: if executable file `test` already exist, skip.
+4. Compile `utilize.c` by `gcc`
 
-   `gcc -g test.c -o test`
+5. Run `sudo ./utilize`, to see what happens. 
 
-5. Run `sudo ./test`, to see what happens. 
-
-## Some Essential Details
-
-1. Visit `/var/log/kern.log` to get the newest `printk()` message.
-2. Use `sudo` to activate
+For more information, see the report. 

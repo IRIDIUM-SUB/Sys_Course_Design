@@ -1,11 +1,15 @@
 ifneq ($(KERNELRELEASE),)
-    obj-m = customdev.o
+#kbuild syntax.
+mymodule-objs :=basindev.o
+obj-m :=basindev.o
 else
-    KERNELDIR :=  /lib/modules/$(shell uname -r)/build
-    PWD       := $(shell pwd)
-modules:
-	$(MAKE) -C $(KERNELDIR) M=$(PWD) modules
-endif
- 
+
+PWD :=$(shell pwd)
+KVER :=$(shell uname -r)
+KDIR :=/lib/modules/$(KVER)/build
+all:
+	$(MAKE) -C $(KDIR) M=$(PWD)
 clean:
-	rm -rf .tmp_versions Module.symvers modules.order .tmp_versions .*.cmd *.o *.ko *.mod.c
+	rm -f *.cmd *.o *.mod *.ko
+endif
+

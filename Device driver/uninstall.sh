@@ -1,3 +1,4 @@
-sudo make clean
-sudo rmmod customdev 
-sudo rm -r /dev/customdev
+sudo make clean;
+sudo rmmod basindev;
+sudo rm -r /dev/customdev;
+echo "Uninstall Successfully";
